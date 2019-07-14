@@ -7,12 +7,9 @@ class RowAndColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Row & Column',
+      theme: ThemeData(fontFamily: 'Raleway'),
       home: new Scaffold(
-        appBar: new AppBar(
-            title: new Text(
-          'Row & Column',
-          style: TextStyle(fontFamily: 'Raleway'),
-        )),
+        appBar: new AppBar(title: new Text('Row & Column')),
         body: new Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
