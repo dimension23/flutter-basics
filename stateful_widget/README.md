@@ -1,6 +1,6 @@
 # Stateful Widget
 
-## Understand and Create a Stateful Widget
+Understand and Create a Stateful Widget
 
 * StatefulWidget class are dynamic
 * State might change during lifetime of the widget and if the widget changes when user interacts - it's Stateful
