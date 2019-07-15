@@ -7,6 +7,7 @@ class StackWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Stack',
+      debugShowCheckedModeBanner: false,
       home: new Scaffold(
         appBar: new AppBar(
           title: new Text('Stack'),
