@@ -2,4 +2,6 @@
 
 Create a basic stack widget in Flutter
 
-![Stack Widget](../screenshots/stack_widget.png | width=200, height=400)
+{:refdef: style="width: 200px; height: 400px"}
+![Stack Widget](../screenshots/stack_widget.png)
+{: refdef}
