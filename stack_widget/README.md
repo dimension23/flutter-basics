@@ -1,5 +1,5 @@
-# stack_widget
+# Stack Widget
 
 Create a basic stack widget in Flutter
 
-<img src='../screenshots/stack_widget.png' width=200, height=400>
+<img src='../screenshots/stack_widget.png' width=300, height=500>
