@@ -8,16 +8,16 @@ class GridViewWidget extends StatefulWidget {
 }
 
 class _GridViewWidgetState extends State<GridViewWidget> {
-
   List<int> _items = new List();
 
   @override
   void initState() {
-    for(int i=0; i <= 50; i++) {
+    for (int i = 1; i <= 50; i++) {
       _items.add(i);
     }
     super.initState();
   }
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
@@ -27,16 +27,20 @@ class _GridViewWidgetState extends State<GridViewWidget> {
         appBar: new AppBar(title: new Text('GridView')),
         body: new GridView.builder(
           itemCount: _items.length,
-            gridDelegate: new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 4),
-            itemBuilder: (BuildContext context, int index) {
+          gridDelegate:
+              new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 4),
+          itemBuilder: (BuildContext context, int index) {
             return new Card(
               color: Colors.redAccent,
-              child: new Padding(padding: const EdgeInsets.all(20.0)),
+              margin: const EdgeInsets.all(3.0),
+              child: new Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Center(child: Text('$index')),
+              ),
             );
-            },
+          },
         ),
       ),
     );
   }
 }
-
