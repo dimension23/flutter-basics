@@ -1,5 +1,5 @@
-name: tabbar_top_bottom
-description: Create a top and bottom TabBar &amp; TabBarView
+name: custom_method_widget
+description: Create a simple custom method widget
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -56,10 +56,6 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  fonts:
-   - family: Gotham-Book
-     fonts:
-       - asset: fonts/GothamBook.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:

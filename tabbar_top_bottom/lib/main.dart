@@ -19,6 +19,10 @@ class _TabBarTopBottomState extends State<TabBarTopBottom>
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Gotham-Book',
+        typography: Typography(platform: TargetPlatform.android),
+      ),
       home: new Scaffold(
         appBar: new AppBar(
           title: Text('Tab Bar'),
